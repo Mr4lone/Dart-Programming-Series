@@ -1,5 +1,8 @@
+1. Hello World နှင့် 
+2. Comment များရေးသားခြင်း - ပရိုဂရမ်တွင် ရေးသားထားသော ကုတ်များအား မိမိကိုယ်တိုင် ဖြစ်စေ၊ တစ်ခြားသူ လေ့လာရာတွင် ဖြစ်စေ မှတ်မိစေရန်နှင့် အလွယ်တကူနားလည်စေရန်အတွက် ရည်ရွယ်ကာ ရေးသားလေ့ရှိပါသည်။ 
+
 void main(){
-   print('Hello Dart Programming'); // this is for string
+  print('Hello Dart Programming'); // this is for string
   print(4); // this is for int
   print(10-4); // this is for + - * /
   print(false);// this is for boolean
