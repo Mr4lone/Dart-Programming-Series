@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+void main(){
+  
+     ////Literals
+     ///
+  String name='Mg Mg';
+  "Aung Aung";
+  var fname='Soe';
+  4.5;
+ 
+ 
+ //String Literals
+
+String a1='First';
+String a2='Second';
+String a3='This is Third';
+String a4= 'It\'s easy'; // single quote with \
+String a5= "This's too easy"; //double quote
+String a6= 'This is long sentence This is long sentenceThis is long sentenceThis is long sentence'+
+            'This is long sentenceThis is long sentenceThis is long sentenceThis is long sentence';
+print('This is $a1, $a2, $a3, $a4, $a5, $a6');
+
+
+   //String Interpolation :
+
+String mname='Soe Ko';
+print('My name is ' + mname);
+print ('My friend\'s name is $mname');
+print('The number of characters in String Soe Ko is ' + mname.length.toString());
+print ('The string with Dollar sign of length character String Soe Ko is ${mname.length}');
+
+int a=31; int b=4;
+print ('The sum of $a and $b is ${a+b}');
+}
+
+
+Answers>>>>
+
+
+This is First, Second, This is Third, It's easy, This's too easy, This is long sentence This is long sentenceThis is long sentenceThis is long sentenceThis is long sentenceThis is long sentenceThis is long sentenceThis is long sentence
+My name is Soe Ko
+My friend's name is Soe Ko
+The number of characters in String Soe Ko is 6
+The string with Dollar sign of length character String Soe Ko is 6
+The sum of 31 and 4 is 35
