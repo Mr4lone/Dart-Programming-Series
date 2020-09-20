@@ -1,0 +1,42 @@
+'const' နဲ့ 'final' keyword များ အသုံးပြုပီးကာ Variable  တန်ဖိုးများအား ကိန်းသေတန်ဖိုးများအဖြစ် သတ်မှတ်နိုင်ပါသည်။
+Class level တစ်ခုမှာ variable တွေကို  Constant  အဖြစ် သတ်မှတ်ချင်တဲ့အခါမှာ
+const ရဲ့ ရှေ့မှာ static ထည့်ပေးရတယ်။
+
+ဉပမာ 
+Class Area{
+final lengt= 32;
+static  const PI= 3.14;
+}
+
+*********************************************************
+void main(){
+ 
+ // Final keyword
+final township='YeU';
+final String streets= 'BoYa st';
+print(township);
+print('Street name\'s $streets');
+
+  //const keyword
+  const age= 32;
+  const double percentage=43.22;
+  print ( 'Age is '+ age.toString());
+  print('The percentage is $percentage');
+
+  //print(ccc.mark);
+}
+  class Circle {
+    final color='red'; 
+    static const mark= 32; //  static keyword is Class level Constant
+    
+  }
+  
+*************************************************************************  
+  
+ 
+ 
+ Answers>>>>
+YeU
+Street name's BoYa st
+Age is 32
+The percentage is 43.22
