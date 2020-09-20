@@ -1,0 +1,7 @@
+void main(){
+ 
+  print('Hello Dart Programming'); // this is for string
+  print(4); // this is for int
+  print(10-4); // this is for + - * /
+  print(false);// this is for boolean
+}
