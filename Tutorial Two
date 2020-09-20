@@ -1,0 +1,48 @@
+Data Types နဲ့  Variable
+၁။ Data Typeများမှာ - Number (int, double) , Strings, Booleans, Lists (Arrayကဲ့သို့), Maps, Runes, Symbols  များ ဖြစ်ပါသည်။
+၂။ Dart Programming Language တွင် Data type များအားလုံးသည် Objectများ ဖြစ်ပါသည်။
+၃။ ထို့ကြောင့် Default value များသည်လည်း null  ဖြစ်ပါသည်။
+
+ရေးသားသည့်ပုံစံ -
+  int age= 10;
+int သည် Data type ဖြစ်သည်။
+age သည် Variable Name ဖြစ်သည်။
+10 သည် Value (တန်ဖိုး) ဖြစ်သည်။
+
+
+void main(){
+// Numbers int
+// ignore: omit_local_variable_types
+int age=33;
+var mark=59;
+ print(age);print(mark);
+//Numbers: double
+// ignore: omit_local_variable_types
+double percentage=94.3;
+var percen=55.3;
+print(percentage); print(percen);
+// Strings
+// ignore: omit_local_variable_types
+String name= 'Mg Mg';
+var address= 'Ye.U';
+print(name); print(address);
+// Boolean
+// ignore: omit_local_variable_types
+bool isvalid= true;
+var ispass=false;
+print(isvalid); print(ispass);
+
+}
+
+
+Answers>>>
+33
+59
+94.3
+55.3
+Mg Mg
+Ye.U
+true
+false
+
+
